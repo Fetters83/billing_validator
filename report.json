@@ -1,0 +1,44 @@
+[
+  {
+    "invoice_id": "INV002",
+    "issue": "TOTAL_MISMATCH",
+    "expected": 200.0,
+    "actual": 190.0
+  },
+  {
+    "invoice_id": "INV003",
+    "issue": "TOTAL_MISMATCH",
+    "expected": 200.0,
+    "actual": 100.0
+  },
+  {
+    "invoice_id": "INV005",
+    "issue": "TOTAL_MISMATCH",
+    "expected": 50.0,
+    "actual": 0.0
+  },
+  {
+    "invoice_id": "INV005",
+    "issue": "MISSING_LINE_ITEMS",
+    "expected": 50.0,
+    "actual": 0.0
+  },
+  {
+    "invoice_id": "INV004",
+    "issue": "NEGATIVE_INVOICE_TOTAL",
+    "expected": null,
+    "actual": -10.0
+  },
+  {
+    "invoice_id": "INV002",
+    "issue": "POTENTIAL_DUPLICATE_INVOICE",
+    "expected": null,
+    "actual": 200.0
+  },
+  {
+    "invoice_id": "INV003",
+    "issue": "POTENTIAL_DUPLICATE_INVOICE",
+    "expected": null,
+    "actual": 200.0
+  }
+]
